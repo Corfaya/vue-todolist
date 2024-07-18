@@ -6,17 +6,20 @@
 
 header {
     padding: 20px 0;
-    background-color: rgb(255, 173, 167);
+    background-color: rgba(244, 142, 58, 0.543);
 }
 
 ul {
-    background-color: rgb(255, 173, 167);
+    background-color: rgba(244, 142, 58, 0.543);
+    border-radius: 20px;
     margin: 80px;
-    padding: 20px;
+    padding: 10px;
 }
 
 ul li {
-    margin: 20px 0;
+    margin: 10px 20px;
     padding: 20px;
     font-weight: 700;
+    border: 2px solid rgb(163, 85, 21);
+    border-radius: 20px;
 }
