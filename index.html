@@ -40,7 +40,9 @@
                                         <button class="btn btn-sm btn-success mx-2" @click="isTaskDone(i)">
                                             <i class="fas fa-check text-white"></i>
                                         </button>
-                                        <button class="btn btn-sm"></button>
+                                        <button class="btn btn-sm btn-danger" @click="taskRemove(i)">
+                                            <i class='fas fa-times text-white'></i>
+                                        </button>
                                     </div>
                                 </div>
                             </li>

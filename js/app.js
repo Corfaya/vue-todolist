@@ -40,5 +40,8 @@ createApp({
         this.todo[i].done = true
         console.log(this.todo[i].done)
     },
+    taskRemove(i){
+        this.todo.splice(i, 1)
+    }
   },
 }).mount("#app");
