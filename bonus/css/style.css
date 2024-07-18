@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #17153B;
+    background-color: #F5E8C7;
+}
+
+header {
+    padding: 10px;
+    background-color: #7077a1b4;
+    box-shadow: 0px 2px 3px grey;
+}
+
+.box {
+    margin: 80px;
+    background-color: #abacb166;
+    border-radius: 20px;
+    box-shadow: 0px 2px 3px grey;
+}
+
+ul {
+    padding: 10px;
+}
+
+ul li {
+    margin: 20px;
+    padding: 20px;
+    font-weight: 700;
+    box-shadow: 0px 2px 3px grey;
+    border-radius: 20px;
+}
+
+.btn-violet {
+    background-color: #565c7c;
+    color: #fff;
+}
+
+.btn-violet:hover {
+    background-color: #6a7196;
+    color: #fff;
+}
