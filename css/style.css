@@ -3,3 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    padding: 20px 0;
+    background-color: rgb(255, 173, 167);
+}
+
+ul {
+    background-color: rgb(255, 173, 167);
+    margin: 80px;
+    padding: 20px;
+}
+
+ul li {
+    margin: 20px 0;
+    padding: 20px;
+    font-weight: 700;
+}
