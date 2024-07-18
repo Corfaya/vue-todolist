@@ -9,10 +9,13 @@ header {
     background-color: rgba(244, 142, 58, 0.543);
 }
 
+.box {
+    margin: 80px
+}
+
 ul {
     background-color: rgba(244, 142, 58, 0.543);
     border-radius: 20px;
-    margin: 80px;
     padding: 10px;
 }
 

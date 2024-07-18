@@ -33,6 +33,7 @@ createApp({
           done: false,
         },
       ],
+      newTask: undefined
     };
   },
   methods: {
@@ -44,6 +45,15 @@ createApp({
         if(confirm("Sicuro di voler eliminare questa task?")){
             this.todo.splice(i, 1)
         }
+    },
+    taskAdd() {
+        // creare oggetto
+        let objectTask = {
+            text: this.newTask,
+            done: false
+        }
+        this.todo.push(objectTask)
+        this.newTask = undefined
     }
   },
 }).mount("#app");
