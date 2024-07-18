@@ -41,7 +41,9 @@ createApp({
         console.log(this.todo[i].done)
     },
     taskRemove(i){
-        this.todo.splice(i, 1)
+        if(confirm("Sicuro di voler eliminare questa task?")){
+            this.todo.splice(i, 1)
+        }
     }
   },
 }).mount("#app");
