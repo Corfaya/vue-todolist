@@ -31,9 +31,17 @@
                 <div class="row">
                     <div class="col-12">
                         <ul class="list-unstyled">
-                            <li>Ciao</li>
-                            <li>Ciao</li>
-                            <li>Ciao</li>
+                            <li v-for="li, i in todo">
+                                <div>
+                                    <div>
+                                        {{ li.text }}
+                                    </div>
+                                    <div class="buttons">
+                                        <button class="btn btn-sm"></button>
+                                        <button class="btn btn-sm"></button>
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
                     </div>
                 </div>
