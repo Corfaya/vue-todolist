@@ -7,30 +7,37 @@ createApp({
         {
           text: "Chiamare il commercialista",
           done: false,
+          edit: false
         },
         {
           text: "Prenotare un tavolo",
           done: false,
+          edit: false
         },
         {
           text: "Andare dal gommista",
           done: false,
+          edit: false
         },
         {
           text: "Comprare gli ingredienti per stasera",
           done: false,
+          edit: false
         },
         {
           text: "Andare dall'estetista",
           done: false,
+          edit: false
         },
         {
           text: "Pulire il bagno",
           done: false,
+          edit: false
         },
         {
           text: "Studiare",
           done: false,
+          edit: false
         },
       ],
       newTask: undefined,
@@ -62,5 +69,8 @@ createApp({
         this.todo[i].done = !this.todo[i].done // true
       }
     },
+    editTask(i) {
+      this.todo[i].edit = !this.todo[i].edit
+    }
   },
 }).mount("#app");
